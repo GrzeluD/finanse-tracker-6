@@ -5,6 +5,7 @@
 <% end %>
 <% if @stock %>
   <div class="card card-header results-block">
+    <img src="<%= @stock.logo %>" alt="<%= @stock.name %> logo">
     <strong>Symbol: </strong><%= @stock.ticker %>
     <strong>Name: </strong><%= @stock.name %>
     <strong>Price: </strong><%= @stock.last_price %>
