@@ -1,7 +1,7 @@
 @import 'bootstrap/dist/css/bootstrap';
 
 .search-area {
-  padding-top: 50px;
+  padding-top: 2rem;
 }
 
 .results-block {
@@ -21,4 +21,8 @@
   display: flex;
   align-items: center;
   margin-right: 1rem;
+}
+
+.friends-table {
+  margin-top: 2rem;
 }
